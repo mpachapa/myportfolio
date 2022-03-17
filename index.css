@@ -19,9 +19,9 @@
     color: #dad7cd;
 }
 
-.nav a.active {
+.nav a#active {
     background-color: #a3b18a;
-    padding: 2px;
+    padding: 10px;
     color: white;
 }
 
