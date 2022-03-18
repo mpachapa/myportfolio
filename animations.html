@@ -6,15 +6,18 @@
     <title>Animations</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="animations.css">
 </head>
 
 <!--Navigation bar at the top of the page-->
 <ul class="nav nav-fill">
     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-    <li class="nav-item"><a class="nav-link" href="interests.html">Interests</a></li>
     <li class="nav-item"><a class="nav-link" id="active" href="animations.html">Animations</a></li>
+    <li class="nav-item"><a class="nav-link" href="interests.html">Interests</a></li>
+    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
 </ul>
+
+<br>
 
 <body>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -22,10 +25,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!--Start of Webpage-->
-    <div>
+    <div class="tracking-in-expand-fwd-top">
         <h1>This page shows of my <i>animation</i> skills</h1>
     </div>
-
+    <br>
+    <main class="centern">
+        <h2 class="text-pop-up-left">I may be new to animation</h2>
+        <p class="text-blur-out">But I am proud of what I have learned by teaching myself.</p>
+        <p>Please contact me below, I'm looking forward to it!</p>
+        <br>
+        <form action="mailto:matt@carolinfintechhub.org" method="post">
+            <input type="text" name="Name" id="name" class="shake-horizontal" placeholder="Bob Joe" required size="40"><br style="margin: 1px;"><br>
+            <input type="email" id="email" name="Email" class="shake-horizontal" required placeholder="Enter a Valid Email Adress" size="40"><br style="margin: 1px;"><br>
+            <textarea name="message" rows="5" cols="42" class="wobble-hor-bottom " required placeholder="Enter Your Comment Here"></textarea><br style="margin: 1px;"><br>
+            <input type="submit" value="Submit" id="sub" class="vibrate">
+            <input type="reset" value="Reset" id="res" class="vibrate">
+        </form>
+        <br>
+    </main>
 
     <footer>
         <h6>&copy Matthew Pachapa 2022</h6>

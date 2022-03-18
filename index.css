@@ -1,4 +1,5 @@
-/* Navbar stylings */
+/* CSS Writen by Matthew Pachapa
+   Navbar Styling Classes */
 
 .nav {
     background-color: #344e41;
@@ -25,12 +26,11 @@
     color: white;
 }
 
+
+/* Other Classes defined */
+
 .interests {
     padding-left: 30px;
-}
-
-.technology-section {
-    display: flex;
 }
 
 .technology-banner {
@@ -42,16 +42,11 @@
     font-size: 24px;
 }
 
-.technology-contanier {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .indv-tech {
     align-self: center;
     text-align: center;
     width: 200px;
+    height: 300px;
     padding-top: 50px;
     background-color: #344e41;
     border-radius: 20px;
@@ -75,7 +70,7 @@ h1 {
 }
 
 h2 {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 h3 {
@@ -91,11 +86,13 @@ img {
 }
 
 p {
+    size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 20px;
 }
 
 body {
-    /*     background-color: #3a5a40; */
     background-size: auto;
     background: linear-gradient(#3A5A40 0%, #588157 50%, #A3B18A 100%);
 }
@@ -107,3 +104,65 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+
+input#sub {
+    background-color: #3A5A40;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input#res {
+    background-color: #3A5A40;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/* scale photo in */
+
+.scale-in-center {
+    -webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/* animation of scale in */
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* EOF */
