@@ -15,7 +15,6 @@
 }
 
 .nav a:hover {
-    /*background-color: #dad7cd;*/
     padding: 2px;
     color: #dad7cd;
 }
@@ -90,6 +89,10 @@ p {
     margin-left: 40px;
     margin-right: 40px;
     padding: 20px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 body {
