@@ -1,0 +1,67 @@
+/* CSS Writen by Matthew Pachapa
+   Navbar Styling Classes */
+   #welcome-section {
+  
+    height: 100vh;
+  }
+  #navbar {
+    width:100%;
+      background-color: #344e41;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-around;
+    position: fixed;
+    top: 0;
+  }
+  
+  .nav-link {
+      color: white;
+      size: 8px;
+      margin: 5px;
+  }
+  
+  /* Other elements */
+  
+  h1 {
+      padding: 10px;
+      text-align: center;
+  }
+  
+  h2 {
+      padding-left: 30px;
+  }
+  
+  a {
+      color: black;
+  }
+  @media screen and (max-width:999px){
+      body{
+        background-color: #3a5a40;
+      }
+  }
+  
+  p {
+      size: 14px;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 20px;
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+  
+  body {
+      background-size: auto;
+      background: linear-gradient(#3A5A40 0%, #588157 50%, #A3B18A 100%);
+  }
+  
+  footer {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      padding: 1rem;
+      text-align: center;
+  }
+  
+  /* EOF */
