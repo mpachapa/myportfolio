@@ -49,7 +49,7 @@
     padding-top: 50px;
     background-color: #344e41;
     border-radius: 20px;
-    margin: 0px 20px 0px 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 .centern {
@@ -101,11 +101,10 @@ body {
 }
 
 footer {
-    position: fixed;
     right: 0;
     bottom: 0;
     padding: 1rem;
-    text-align: center;
+    text-align: right;
 }
 
 input#sub {
