@@ -2,7 +2,9 @@
 
 This is my coding portfolio, and will continue to be updated as I create more projects.
 
-Here is a link to my first website https://mpachapa.github.io/my-first-website/
+Here is a link to one of the first projects I worked on in university https://mpachapa.github.io/myBlog/
+
+Here is a link to the first website I made in my free time https://mpachapa.github.io/my-first-website/
 
 You can also view my portfolio (this repository) at https://mpachapa.github.io/myportfolio/
 
